@@ -1,0 +1,25 @@
+<ExchangeRatesSeries xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Table>C</Table>
+	<Currency>euro</Currency>
+	<Code>EUR</Code>
+	<Rates>
+		<Rate>
+			<No>191/C/NBP/2016</No>
+			<EffectiveDate>2016-10-03</EffectiveDate>
+			<Bid>4.2608</Bid>
+			<Ask>4.3468</Ask>
+		</Rate>
+		<Rate>
+			<No>192/C/NBP/2016</No>
+			<EffectiveDate>2016-10-04</EffectiveDate>
+			<Bid>4.2590</Bid>
+			<Ask>4.3450</Ask>
+		</Rate>
+		<Rate>
+			<No>193/C/NBP/2016</No>
+			<EffectiveDate>2016-10-05</EffectiveDate>
+			<Bid>4.2492</Bid>
+			<Ask>4.3350</Ask>
+		</Rate>
+	</Rates>
+</ExchangeRatesSeries>
