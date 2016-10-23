@@ -5,14 +5,11 @@ import org.w3c.dom.Document;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.net.URL;
 import java.util.Arrays;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
 
 public class XmlExchangeRatesProviderTest {
 
