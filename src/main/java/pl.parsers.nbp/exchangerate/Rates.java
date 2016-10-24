@@ -1,6 +1,7 @@
 package pl.parsers.nbp.exchangerate;
 
 import java.math.BigDecimal;
+import java.util.Collections;
 import java.util.List;
 
 public class Rates {
@@ -8,7 +9,7 @@ public class Rates {
 	private final List<BigDecimal> rates;
 
 	private Rates(final List<BigDecimal> rates) {
-		this.rates = rates;
+		this.rates = Collections.unmodifiableList(rates);
 	}
 
 	public List<BigDecimal> getRates() {
